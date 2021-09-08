@@ -112,6 +112,7 @@ main h2+p{
 @media (max-width: 899px){
     .table th,.table td{
         font-size: 13px;
+        padding: 40px;
     }
 
     .table thead span{
