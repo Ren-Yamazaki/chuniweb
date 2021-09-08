@@ -125,3 +125,9 @@ main h2+p{
 .table-wrapper{
     overflow: auto;
 }
+
+.table th:nth-child(1){
+    -webkit-position: sticky;
+    position: sticky;
+    left :0;
+}
