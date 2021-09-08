@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*基本*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(228, 218, 218);
+    color: black;
+}
+
+body,h1,h2,h3,p,figure,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*タイトル*/
+#title{
+    text-align: center;
+}
+
+/*画像注釈*/
+.imgexp{
+    text-align: center;
+    font-weight: bold;
+    color: darkslateblue;
+}
+
+/*コンテナ*/
+.container{
+    width: 92%;
+    max-width: 1214px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*メインコンテンツ*/
+main section{
+    margin: 36px 0;
+    padding: 31px 10px 43px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: midnightblue;
+}
+
+main h2{
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+
+main h2+p{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#sss{
+    text-align: center;
+}
+
+/*テーブル*/
+.table{
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0;
+    margin-top: 28px;
+}
+
+.table th,.table td{
+    padding: 5px 0;
+    border-bottom: solid 1px #d3d3d3;
+    color: #282832;
+    font-size: 14px;
+    text-align: center;
+}
+
+.table thead th{
+    border-top: solid 1px #d3d3d3;
+}
+
+.table th:nth-child(1){
+    background-color: #282832;
+    color: #ffffff;
+    box-shadow: 4px 0 4px rgba(0,0,0,0.2);
+}
+
+.table th:nth-child(1) img{
+    width: 48px;
+    height: auto;
+    padding: 3px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.table tbody tr:nth-child(odd){
+    background: #eeeeee;
+}
