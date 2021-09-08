@@ -117,3 +117,8 @@ main h2+p{
         height: 48px;
     }
 }
+
+/*レスポンシブテーブル*/
+.table-wrapper{
+    overflow: auto;
+}
