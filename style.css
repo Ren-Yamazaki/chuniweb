@@ -71,6 +71,7 @@ main h2+p{
 /*テーブル*/
 .table{
     width: 100%;
+    min-width: 550px;
     table-layout: fixed;
     border-spacing: 0;
     margin-top: 28px;
@@ -104,4 +105,15 @@ main h2+p{
 
 .table tbody tr:nth-child(odd){
     background: #eeeeee;
+}
+
+@media (max-width: 899px){
+    .table th,.table td{
+        font-size: 13px;
+    }
+
+    .table thead span{
+        writing-mode: vertical-rl;
+        height: 48px;
+    }
 }
