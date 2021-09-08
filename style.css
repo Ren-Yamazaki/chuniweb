@@ -72,14 +72,13 @@ main h2+p{
 .table{
     width: 100%;
     min-width: 550px;
-    table-layout: fixed;
+    table-layout: auto;
     border-spacing: 0;
     margin-top: 28px;
 }
 
 .table th,.table td{
-    padding: 5px 0;
-    margin: 20px;
+    padding: 10px;
     border-bottom: solid 1px #d3d3d3;
     color: #282832;
     font-size: 14px;
@@ -94,6 +93,8 @@ main h2+p{
     background-color: #282832;
     color: #ffffff;
     box-shadow: 4px 0 4px rgba(0,0,0,0.2);
+
+    align-items: center;
 }
 
 .table th:nth-child(1) img{
@@ -122,5 +123,4 @@ main h2+p{
 /*レスポンシブテーブル*/
 .table-wrapper{
     overflow: auto;
-    white-space: nowrap;
 }
