@@ -30,6 +30,10 @@ a{
     color: darkslateblue;
 }
 
+img{
+    max-width: 100%;
+}
+
 /*コンテナ*/
 .container{
     width: 92%;
