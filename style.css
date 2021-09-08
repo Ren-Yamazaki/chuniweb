@@ -127,7 +127,8 @@ main h2+p{
 }
 
 .table th:nth-child(1){
-    -webkit-position: sticky;
     position: sticky;
+    position: -webkit-sticky;
     left :0;
+    z-index: 1;
 }
