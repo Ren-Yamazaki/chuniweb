@@ -121,4 +121,5 @@ main h2+p{
 /*レスポンシブテーブル*/
 .table-wrapper{
     overflow: auto;
+    white-space: nowrap;
 }
