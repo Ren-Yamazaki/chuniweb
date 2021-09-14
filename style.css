@@ -21,6 +21,7 @@ a{
 /*タイトル*/
 #title{
     text-align: center;
+    margin: 80px;
 }
 
 /*画像注釈*/
@@ -131,4 +132,20 @@ main h2+p{
     position: -webkit-sticky;
     left :0;
     z-index: 1;
+}
+
+/*フッター*/
+.footer{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.menus{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menus > *{
+    width: 50%;
+    margin-bottom: 60px;
 }
